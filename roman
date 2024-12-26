@@ -7,3 +7,4 @@ docker exec -it sita /bin/bash
 apt-get update 
 apt-get install apache2 -y
 [A[C[C[C[C[C[C[C[C[C[C[C[C[[C[C[C[C[C[C[C[C[C[C[C[D[D[C[F[B[
+docker attach sita
