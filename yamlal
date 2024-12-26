@@ -1,1 +1,4 @@
 ma timro hero dai
+yum update -y
+yum install docker -y 
+docker run -it --name bhu update /bin/bash
