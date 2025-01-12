@@ -1,0 +1,9 @@
+yum update -y
+yum install docker -y 
+docker run -td  --name sita _p 80:80 ubuntu
+docker ps
+docker port sita
+docker exec -it sita /bin/bash
+apt-get update 
+apt-get install apache2 -y
+[A[C[C[C[C[C[C[C[C[C[C[C[C[[C[C[C[C[C[C[C[C[C[C[C[D[D[C[F[B[
